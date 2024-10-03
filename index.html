@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<script src="js/modernizr.js"></script>
 
     <!--[if lt IE 9]>
@@ -44,88 +45,138 @@
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
+          <ul class="navbar-nav text-uppercase m-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+              <a class="nav-link js-scroll-trigger active" href="#about">Sobre Mim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre Mim</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Experiências</a>
+              <a class="nav-link js-scroll-trigger" href="#experiences">Experiências</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+              <a class="nav-link js-scroll-trigger" href="#technologies">Tecnologias</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-	
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
-		<div class="heading">
-			<h1>hello i'm Pedro</h1>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-			<h3 class="cd-headline clip is-full-width">
-				<span>Lorem ipsum dolor sit amet </span>
-				<span class="cd-words-wrapper">
-					<b class="is-visible">Web Developer</b>
-					<b>Web Design</b>
-					<b>Creative Design</b>
-					<b>Graphic Design</b>
-				</span>
-			</h3>
-		</div>
-	</section>
 
     <div id="about" class="section wb">
         <div class="container">
+            <div class="row my-5">
+                <div class="text-center col-sm-12">
+                    <h1>Pedro Henrique Fileti Kuhn</h1>
+                    <hr>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2>About Pedro.</h2>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-						<p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
-
-                        <a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
+                    <div class="row">
+                        <img src="uploads/fotoaaa.jpeg" alt="pedro" style="height: 100px;" class="img-fluid rounded  alignleft">
+                    </div>
+                    <div class="row">
+                        <h4>Pedro Henrique <small>- Software Developer</small></h4>
+                    </div>
+                    <div class="mt-1">
+                        <div class="row mb-2">
+                            <a href="https://www.linkedin.com/in/pedro-kuhn-010b7522b/" style="text-decoration: underline !important;" target="_blank" class="d-flex align-items-center text-info">
+                                <i class="fab fa-linkedin icon mr-2"></i>
+                                linkedin.com/in/pedro-kuhn-010b7522b/
+                            </a>
+                        </div>
+                        <div class="row mb-2">
+                            <a href="https://github.com/PedroFK" style="text-decoration: underline !important;" target="_blank" class="d-flex align-items-center text-dark">
+                                <i class="fab fa-github icon mr-2"></i>
+                                github.com/PedroFK
+                            </a>
+                        </div>
+                        <div class="row mb-2">
+                            <a href="#" id="copyEmail" class="d-flex align-items-center text-danger">
+                                <i class="fas fa-envelope icon mr-2"></i>
+                                pedrohh.fk3@gmail.com
+                            </a>
+                        </div>
+                        <div class="row mb-2">
+                            <a href="https://wa.me/5527998604825" target="_blank" class="d-flex align-items-center text-success">
+                                <i class="fab fa-whatsapp icon mr-2"></i>
+                                +55 (27) 998604825
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
+                    <div class="message-box">                        
+                        <h3>Sobre mim</h3>
+                        <p class="text-justify">Comecei a estudar desenvolvimento de software e logo conquistei minha
+                            primeira oportunidade desenvolvendo em PHP e Laravel. Hoje sou
+                            desenvolvedor Full-Stack com ampla experiência em desenvolvimento web
+                            já tendo trabalhado com diversas tecnologias. Domínio em Laravel, PHP,
+                            Angular, Vue.js, TypeScript.</p>
+
+                        <a href="#" class="sim-btn btn-hover-new" data-text="Baixar"><span>Baixar Curriculo</span></a>
+                    </div><!-- end messagebox -->
+                </div>
+
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 	
-    <div id="services" class="section lb">
+    <div id="experiences" class="section lb pt-3">
         <div class="container">
-            <div class="section-title text-left">
-                <h3>Services</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            <div class="section-title text-left mb-2">
+                <div class="ser-icon">
+                    <i class="flaticon-development"></i>
+                </div>
+                <h3>Experiências</h3>
             </div><!-- end title -->
 
             <div class="row">
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-seo"></i>
-						</div>
-						<h2>Web Development</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="col-md-12">
+                    <div class="services-inner-box p-4">
+                        <h2>Software Developer - Full Stack</h2>
+                        <div class="d-flex">
+                            <h3>Rede Incentive,</h3>
+                            &nbsp;
+                            <h3>Jan 2024 - Atual</h3>
+                        </div>
+						<p class="mb-2 text-justify">Projetei e criei um novo módulo utilizando Laravel para patrocinadores
+                            acessarem os resultados e relatórios dos investimentos que fazem em
+                            projetos sociais. Fiz integração com api do GOOGLE MAPS PLATFORM
+                            utilizando serviço de geocoding.</p>
+                            <p class="mb-2 text-justify">
+                                Desenvolvimento e manutenção de interfaces de usuário dinâmicas e
+                                responsivas utilizando Angular. Implementando componentes reutilizáveis
+                                em toda a aplicação.</p>
+                                <p class="mb-0 text-justify">
+                                    Identifiquei e corrigi gargalos de desempenho na plataforma, otimizando
+                                    consultas de banco de dados e melhorando a eficiência do código.
+                                    Implementei UUID em situações onde a exposição de IDs numéricos
+                                    comprometiam a segurança da aplicação.</p>
 					</div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-development"></i>
-						</div>
-						<h2>Responsive Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-12">
+                    <div class="services-inner-box p-4">
+                        <h2>Software Developer - Full Stack</h2>
+                        <div class="d-flex">
+                            <h3>Rede Incentive,</h3>
+                            &nbsp;
+                            <h3>Jan 2024 - Atual</h3>
+                        </div>
+						<p class="mb-2 text-justify">Projetei e criei um novo módulo utilizando Laravel para patrocinadores
+                            acessarem os resultados e relatórios dos investimentos que fazem em
+                            projetos sociais. Fiz integração com api do GOOGLE MAPS PLATFORM
+                            utilizando serviço de geocoding.</p>
+                            <p class="mb-2 text-justify">
+                                Desenvolvimento e manutenção de interfaces de usuário dinâmicas e
+                                responsivas utilizando Angular. Implementando componentes reutilizáveis
+                                em toda a aplicação.</p>
+                                <p class="mb-0 text-justify">
+                                    Identifiquei e corrigi gargalos de desempenho na plataforma, otimizando
+                                    consultas de banco de dados e melhorando a eficiência do código.
+                                    Implementei UUID em situações onde a exposição de IDs numéricos
+                                    comprometiam a segurança da aplicação.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -134,7 +185,7 @@
 						<h2>Creative Design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -143,7 +194,7 @@
 						<h2>Support</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -152,7 +203,7 @@
 						<h2>Web Idea</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -161,10 +212,24 @@
 						<h2>Graphic Design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
             </div><!-- end row -->
         </div><!-- end container -->
-    </div><!-- end section -->
+    </div>
+
+    <div id="technologies" class="section lb pt-3"></div>
+        <div class="container">
+            <div class="section-title text-left mb-2">
+                <div class="ser-icon">
+                    <i class="flaticon-process"></i>
+                </div>
+                <h3>Tecnologias</h3>
+            </div><!-- end title -->
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
@@ -181,6 +246,17 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+
+    <script>
+         document.getElementById('copyEmail').addEventListener('click', function() {
+            const email = 'pedrohh.fk3@gmail.com'; // O email que será copiado
+            navigator.clipboard.writeText(email).then(function() {
+                alert('Email copiado: ' + email); // Exibe um alerta informando que o email foi copiado
+            }, function(err) {
+                console.error('Erro ao copiar o email: ', err);
+            });
+        });
+    </script>
 
 </body>
 </html>
